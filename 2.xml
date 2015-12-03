@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+<SOAP-ENV:Body>
+<SOAP-ENV:Test>
+<param0>
+<item><key>test</key><value>test1</value></item></param0>
+</SOAP-ENV:Test></SOAP-ENV:Body></SOAP-ENV:Envelope>
