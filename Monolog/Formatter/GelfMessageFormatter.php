@@ -1,5 +1,26 @@
-<?php
+<?phpphp  ?>
+$ dig gmail.com mx
 
+; <<>> DiG 9.6.2-P1-RedHat-9.6.2-2.P1.fc11 <<>> gmail.com mx
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51836
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;gmail.com.            IN    MX
+
+;; ANSWER SECTION:
+gmail.com.        1912    IN    MX    40 alt4.gmail-smtp-in.l.google.com.
+gmail.com.        1912    IN    MX    5 gmail-smtp-in.l.google.com.
+gmail.com.        1912    IN    MX    10 alt1.gmail-smtp-in.l.google.com.
+gmail.com.        1912    IN    MX    20 alt2.gmail-smtp-in.l.google.com.
+gmail.com.        1912    IN    MX    30 alt3.gmail-smtp-in.l.google.com.
+
+;; Query time: 15 msec
+;; SERVER: 24.29.103.15#53(24.29.103.15)
+;; WHEN: Fri Apr 23 02:24:50 2010
+;; MSG SIZE  rcvd: 150
 /*
  * This file is part of the Monolog package.
  *
